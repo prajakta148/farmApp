@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">farmApp</string>
+    <string-array name="Select_Category">
+        <item>Vegetable
+
+        <string-array name="Select_Sub_catagory">
+            <item>Onion</item>
+            <item>Potato</item>
+            <item>Chilies</item>
+        </string-array>
+        </item>
+        <item>fruits
+            <string-array name="Select_SubCatagory">
+                <item>Mango</item>
+                <item>Orange</item>
+                <item>Banana</item>
+            </string-array>
+
+        </item>
+    </string-array>
+</resources>

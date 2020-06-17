@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="e.nikita.farmapp">
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="KRUSHIUDAY"
+        android:roundIcon="@drawable/cap"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".customerListDisplay"></activity>
+        <activity android:name=".customerRequirement" />
+        <activity android:name=".FarmerListDisplay" />
+        <activity android:name=".FarmerRequirement" />
+        <activity android:name=".Customer_newCommodity" />
+        <activity android:name=".Customer_next" />
+        <activity android:name=".NewCommodity" />
+        <activity android:name=".farmer_next" />
+        <activity android:name=".customerFarmer" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

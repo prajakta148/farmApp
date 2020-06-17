@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#ffff"
+            android:id="@+id/c"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/p"
+            android:textSize="16sp"
+            android:textColor="#ffff"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/m"
+            android:textSize="16sp"
+            android:textColor="#ffff"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/q"
+            android:textSize="16sp"
+            android:textColor="#ffff"
+
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/city11"
+            android:textSize="16sp"
+            android:textColor="#ffff"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/ci"
+            android:textSize="16sp"
+            android:background="#ffff"
+            android:layout_height="8dp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

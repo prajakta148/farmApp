@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "468136795224",
+    "firebase_url": "https://farmapp-a54c0.firebaseio.com",
+    "project_id": "farmapp-a54c0",
+    "storage_bucket": "farmapp-a54c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468136795224:android:5c8f8d1f2dc8b88a",
+        "android_client_info": {
+          "package_name": "e.nikita.farmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468136795224-v07r7vr50c0nttptgqo692p1vsc5gr7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.nikita.farmapp",
+            "certificate_hash": "945476faf911125dd8ee4a3d633a9612e245b29a"
+          }
+        },
+        {
+          "client_id": "468136795224-1f6ivpv6a34iq18kq2bgk94eddfe9lg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC-K96IW5qoYxrY9hzsIuYEHWiEvD1g28"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468136795224-1f6ivpv6a34iq18kq2bgk94eddfe9lg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

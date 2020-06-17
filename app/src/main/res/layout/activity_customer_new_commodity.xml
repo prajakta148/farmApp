@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/carting"
+    tools:context=".Customer_newCommodity">
+    <AutoCompleteTextView
+        android:id="@+id/commodity"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="410dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:hint="Select the Commodity" />
+    <AutoCompleteTextView
+        android:id="@+id/city"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="450dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:hint="Enter the city" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="310dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter the expected price in Rupees per kilogram" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="350dp"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter the Quantity in kg" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="210dp"
+        android:layout_height="wrap_content"
+        android:background="@color/customer"
+        android:text="Submit" />
+
+</RelativeLayout>

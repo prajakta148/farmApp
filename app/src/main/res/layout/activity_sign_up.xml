@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cf"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:hint="Enter Username of 8 charecter "
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="16dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:ems="10"
+        android:hint="Enter password of 8 charecter"
+        android:drawableLeft="@drawable/passwordd"
+        android:drawablePadding="16dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:ems="10"
+        android:hint="Mobile no."
+        android:drawableLeft="@drawable/mb1"
+        android:drawablePadding="16dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Register"
+        android:background="@color/customer"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/loginalready"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="40dp"
+        android:text="Already registered?Sign In" />
+</RelativeLayout>
